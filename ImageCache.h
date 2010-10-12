@@ -1,9 +1,8 @@
 //
 //  ImageCache.h
-//  kpmg_iphone_client
 //
 //  Created by Joseph Rodriguez on 24/08/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  /* Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php */
 //
 
 #import <Foundation/Foundation.h>
