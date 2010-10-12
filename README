@@ -1,1 +1,19 @@
 /* Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php */
+
+# Web Image Cache
+And Objective-C Helper for caching images from a URL
+
+## Usage
+
+### Read
+UIImage *myImage = [ImageCache read:@"http://www.mysite.com/my_image.png"];
+=> <#UIImage> | nil
+
+### Write
+[ImageCache write:@"http://www.mysite.com/my_image.png"];
+=> void
+
+### Fetch
+Performs a read, and a write if nil
+[ImageCache fetch:@"http://www.mysite.com/my_image.png"];
+=> <#UIImage> | nil
