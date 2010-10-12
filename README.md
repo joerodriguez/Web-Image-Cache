@@ -16,6 +16,10 @@ Performs a read, and a write if nil
 [ImageCache fetch:@"http://www.mysite.com/my_image.png"];
 => <#UIImage> | nil
 
+## Credit
+Adapted from http://www.iphonedevsdk.com/forum/iphone-sdk-tutorials/13315-image-caching-tutorial.html
+credit chewbocka for initial code base
+
 ## Licensee
 
 The MIT License
